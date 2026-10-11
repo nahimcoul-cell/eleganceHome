@@ -1,0 +1,17 @@
+{
+  "name": "elegance-home-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node server.mjs",
+    "test": "node scripts/build.mjs && node --test"
+  },
+  "dependencies": {
+    "web-push": "^3.6.7"
+  }
+}
